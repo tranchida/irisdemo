@@ -12,8 +12,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-// const uri = "mongodb://localhost:27017"
-const uri = "mongodb+srv://giampa0l0:PkZ66tL$X9@cluster0.7xoftco.mongodb.net/?retryWrites=true&w=majority"
+const uri = "mongodb://localhost:27017"
 
 type Car struct {
 	Id    primitive.ObjectID `bson:"_id,omitempty"`
